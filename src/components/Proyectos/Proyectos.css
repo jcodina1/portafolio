@@ -9,7 +9,7 @@ h1{color: aliceblue;}
 .cardProyetos{
     width: 24rem;
 }
-@media (max-width 991px){
+@media (max-width: 991px){
 .cont{
     display: flex;
     flex-direction: column;
