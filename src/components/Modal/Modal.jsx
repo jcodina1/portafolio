@@ -9,8 +9,8 @@ export default function Modals({show,handleClose}){
           <Modal.Title>🛈</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Si Deseas mayor informacion de como y en que proyectos he utilizado la
-          habilidad da click en el nombre de esta.
+          Si Deseas mayor informacion de experiencia en que proyectos  he utilizado la
+          habilidad da click en el nombre o imagen de esta.
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>
