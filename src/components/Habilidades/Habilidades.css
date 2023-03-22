@@ -1,0 +1,77 @@
+.habilidades{
+    color: aliceblue;
+    background-color: rgba(94, 14, 185, 0.432);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slider {
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+    width: calc(200px * 30);
+}
+
+.slider .slide {
+    width: 100px;
+}
+
+.slider .slide img {
+    width: 100%;
+    padding: 10px;
+}
+.card{
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.377) !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+
+    
+}
+.card img{
+width: 50px;
+}
+.accordion{
+    margin-top: 5%;
+    padding: 20px;
+    --bs-accordion-color: #ffffff !important;
+    --bs-accordion-bg: #0c0c0c59 !important;
+    --bs-accordion-btn-color:var(--bs-accordion-color) !important;
+}
+
+.accordion-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-100px * 15));
+        transform: translateX(calc(-100px * 15));
+    }
+}
+
+
+@media (max-width: 991px) {
+    .card-title{
+        
+    display: none;
+        
+    }
+}
+

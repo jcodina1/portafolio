@@ -1,16 +1,16 @@
 import React from "react";
-import landingpage1 from "../assets/header-img.svg";
+import landingpage1 from "../../assets/header-img.svg";
 import "./Landingpage.css";
-import logo2 from "../assets/logoDark2.svg";
+import logo2 from "../../assets/logoDark2.svg";
 import { Link } from "react-router-dom";
-import NavBar2 from "../NavBar/NavBar2";
+import NavBar from "../NavBar/NavBar";
 
 
 export default function LandingPage() {
 
   return (
     <div>
-      <NavBar2 />
+      <NavBar />
       <div className="hero">
         <div className="container">
           <div className="row">

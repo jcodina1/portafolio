@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar2 from "../NavBar/NavBar2";
+import NavBar from "../NavBar/NavBar";
 
 export default function Contacto(){
     return(
         <>
-         <NavBar2 />
+         <NavBar />
         Contacto
         </>
         )

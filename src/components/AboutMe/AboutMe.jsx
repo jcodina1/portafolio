@@ -1,12 +1,12 @@
 import React from "react";
-import fotoPerfil from "../assets/FOTOPERFIL.jpg";
+import fotoPerfil from "../../assets/FOTOPERFIL.jpg";
 import "./AboutMe.css";
-import NavBar2 from "../NavBar/NavBar2";
+import NavBar from "../NavBar/NavBar";
 
 export default function AboutMe() {
   return (
     <>
-      <NavBar2 />
+      <NavBar />
       <div className="aboutMe">
         <img src={fotoPerfil} alt="" />
         <div className="quien">

@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar2 from "../NavBar/NavBar2";
+import NavBar from "../NavBar/NavBar.jsx";
 
 export default function Proyectos(){
     return(
         <>
-         <NavBar2 />
+         <NavBar />
         Proyectos
         </>
         )
