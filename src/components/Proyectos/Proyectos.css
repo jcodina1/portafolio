@@ -1,21 +1,30 @@
-h1{color: aliceblue;}
-.cont{
+h1 {
+    color: aliceblue;
+}
+
+.cont {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: aliceblue;
     padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
-.cardProyetos{
-    width: 24rem;
+
+.cardProyetos {
+    width: 40%;
+    padding: 10px;
 }
-@media (max-width: 991px){
-.cont{
-    display: flex;
-    flex-direction: column;
-    
-}
-.cardProyetos{
-    width: 100%;
-}
+
+@media (max-width: 991px) {
+    .cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardProyetos {
+        width: 100%;
+    }
 }

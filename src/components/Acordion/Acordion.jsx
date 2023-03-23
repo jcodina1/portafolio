@@ -10,7 +10,7 @@ export default function Acordion(props){
               {lenguajes.map((f) => (
                 <Card key={f.id}>
                   <Card.Img src={f.img} />
-                  <Card.Body>
+                  <Card.Body className="card-bodyh">
                     <Card.Title>{f.name}</Card.Title>
                   </Card.Body>
                 </Card>
@@ -23,7 +23,7 @@ export default function Acordion(props){
               {frontEnd.map((f) => (
                 <Card key={f.id}>
                   <Card.Img src={f.img} />
-                  <Card.Body>
+                  <Card.Body className="card-bodyh">
                     <Card.Title>{f.name}</Card.Title>
                   </Card.Body>
                 </Card>
@@ -36,7 +36,7 @@ export default function Acordion(props){
               {backEnd.map((f) => (
                 <Card key={f.id}>
                   <Card.Img src={f.img} />
-                  <Card.Body>
+                  <Card.Body className="card-bodyh">
                     <Card.Title>{f.name}</Card.Title>
                   </Card.Body>
                 </Card>

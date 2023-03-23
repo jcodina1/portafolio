@@ -12,7 +12,7 @@ function CardProyetos({titulo,img,des}) {
         <Card.Text>
          {des}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Mas Info</Button>
       </Card.Body>
       
     </div>
