@@ -12,7 +12,7 @@ export default function Proyectos(){
          <NavBar />
             <h1>PROYECTOS</h1>
          <div className="cont">
-        {proyectos.map((p,index)=><CardProyetos key={index} titulo={p.titulo} img={p.img} des={p.des} tec={p.descripcion.Tecnologías} />)}
+        {proyectos.map((p,index)=><CardProyetos key={index} titulo={p.titulo} img={p.img} des={p.des} url={p.url} descripcion={p.descripcion} />)}
         
          </div>
         </>
