@@ -19,8 +19,8 @@ export default function NavBar() {
             <Link className="nav-link" to={"/aboutMe"}>Sobre Mi</Link>
             <Link className="nav-link" to={"/habilidades"}>Habilidades</Link>
             <Link className="nav-link" to={"/proyectos"}>Proyectos</Link>
-            <Link className="nav-link" to={"/testimonios"}>Testimonios</Link>
-            <Link className="nav-link" to={"/contacto"}>Contacto</Link>
+            {/* <Link className="nav-link" to={"/testimonios"}>Testimonios</Link>
+            <Link className="nav-link" to={"/contacto"}>Contacto</Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

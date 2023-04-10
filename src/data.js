@@ -144,3 +144,5 @@ function elegir(tecnologia){
   return nuevo.map(n=>{return {name:n.name,color:n.color}})
   
 }
+
+

@@ -42,7 +42,7 @@ function CardProyetos({titulo,img,des,url,descripcion}) {
       </Tab>
       
     </Tabs>
-    <Button variant="primary" href={url} target="_blank">Deploy</Button>
+    <Button variant="primary" href={url} target="_blank">Deploy de {titulo}</Button>
         </Offcanvas.Body>
       </Offcanvas>
     
