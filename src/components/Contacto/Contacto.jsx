@@ -1,7 +1,8 @@
 import React from "react";
-import Error404 from "../404/Error404";
+
 import NavBar from "../NavBar/NavBar";
 import FormularioContacto from "../FormularioContacto/FormContacto";
+import Footer from "../Footer/Footer";
 
 
 export default function Contacto(){
@@ -10,6 +11,7 @@ export default function Contacto(){
         <>
          <NavBar />
          <FormularioContacto />
+         <Footer />
         </>
         )
 }

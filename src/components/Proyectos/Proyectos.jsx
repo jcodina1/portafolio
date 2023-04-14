@@ -1,9 +1,10 @@
 import React from "react";
-import Error404 from "../404/Error404.jsx";
+
 import CardProyetos from "../CardProyetos/CardProyetos.jsx";
 import {proyectos} from "../../data.js"
 import NavBar from "../NavBar/NavBar.jsx";
 import "./Proyectos.css";
+import Footer from "../Footer/Footer.jsx";
 
 export default function Proyectos(){
     
@@ -15,6 +16,7 @@ export default function Proyectos(){
         {proyectos.map((p,index)=><CardProyetos key={index} titulo={p.titulo} img={p.img} des={p.des} url={p.url} descripcion={p.descripcion} />)}
         
          </div>
+         <Footer />
         </>
         )
 }

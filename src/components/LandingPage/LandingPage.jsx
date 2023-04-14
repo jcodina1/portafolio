@@ -4,12 +4,13 @@ import "./Landingpage.css";
 import logo2 from "../../assets/logoDark2.svg";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
 
 export default function LandingPage() {
 
   return (
-    <div>
+    <div className="todo">
       <NavBar />
       <div className="hero">
         <div className="container">
@@ -41,6 +42,7 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

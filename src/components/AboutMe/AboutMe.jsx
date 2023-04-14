@@ -2,10 +2,11 @@ import React from "react";
 import fotoPerfil from "../../assets/FOTOPERFIL.jpg";
 import "./AboutMe.css";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
 export default function AboutMe() {
   return (
-    <>
+    <div >
       <NavBar />
       <div className="aboutMe">
         <img src={fotoPerfil} alt="" />
@@ -31,8 +32,9 @@ export default function AboutMe() {
             el desarrollo de mi vida profesional.
             <br />
           </p>
-        </div>
+        </div>        
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }

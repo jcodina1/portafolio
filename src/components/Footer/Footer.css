@@ -1,0 +1,42 @@
+.img_logo_footer{
+    width: 20%;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 30px;
+    width: 50%;
+    
+}
+.icono .nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.icono a{
+    text-decoration: none;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+@media (max-width: 768px) {
+   
+    .imagenes{
+        width: 100%;
+    }
+    .icono h6{
+        display: none;
+    
+    }
+    .img_logo_footer{
+        width: 50%;
+    }
+}

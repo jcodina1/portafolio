@@ -1,11 +1,9 @@
 import { useState,useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./FormularioContacto.css";
+ 
 
 
-const SERVICE_ID=process.env.SERVICE_ID;
-const TEMPLATE_ID=process.env.TEMPLATE_ID;
-const PUBLIC_KEY=process.env.PUBLIC_KEY;
 export default function FormularioContacto() {
   const [errors, setErrors] = useState({});
   const [input, setInput] = useState({
@@ -29,16 +27,13 @@ export default function FormularioContacto() {
     );
     console.log(errors);
   };
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-    alert("énviado");
-  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+    emailjs.sendForm("service_o3kj0bj", "template_bhxdboc", form.current, "vVOn065yo-X3s5seo")
       .then((result) => {
           console.log(result.text);
           alert("Enviado")

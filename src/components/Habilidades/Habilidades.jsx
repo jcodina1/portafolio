@@ -9,6 +9,7 @@ import {lenguajes,frontEnd,backEnd,habilidades} from "../../data.js"
 import Modals from "../Modal/Modal";
 import Acordion from "../Acordion/Acordion";
 import Slider from "../Slider/Slider";
+import Footer from "../Footer/Footer";
 export default function Habilidades() {
   
   
@@ -31,6 +32,7 @@ export default function Habilidades() {
         <Slider total={total} lenguajes={lenguajes} frontEnd={frontEnd} backEnd={backEnd} />
         <Acordion handleShow={handleShow} lenguajes={lenguajes} frontEnd={frontEnd} backEnd={backEnd}  />        
       </div>
+      <Footer />
     </div>
   );
 }

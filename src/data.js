@@ -17,6 +17,11 @@ import Beerland from "./assets/beerland.png";
 import Countries from "./assets/countries.png";
 import Portafolio from "./assets/portafolio.png";
 import Minerales from "./assets/minerales.png"
+// import Whatsapp from "../../assets/whatsapp_.png";
+// import Linkedin from "../../assets/linkedin_.png";
+// import Cv from "../../assets/curriculum_.png";
+// import Github from "../../assets/github_.png";
+
 export const lenguajes = [
   { id: 1, name: "JavaScript", img: JavaScript, des: "" ,color:'#f3db4b'}, 
   { id: 2, name: "Java", img: Java, des: "",color:'#fc9b14' },
@@ -137,6 +142,11 @@ url:"https://portafolio-jcodina1.vercel.app/"
   }
   
 ];
+// export const redes=[
+//   {name:"Whatsapp",img:Whatsapp, url:'wa.link/efq3u5'},
+// {name:"Linkedin",img:Linkedin,url:'https://www.linkedin.com/in/jcodina1/'},
+// {name:"Github",url:'https://github.com/jcodina1/'},
+// {name:"Cv",img:Cv,url:''}]
 
 
 function elegir(tecnologia){
