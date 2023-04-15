@@ -28,7 +28,7 @@ export default function LandingPage() {
               </h2>
               <div className="d-flex justify-content-center justify-content-lg-start">
                 <Link to={'/aboutMe'} className="btn-get-started scrollto">
-                  Conoceme
+                  Conóceme
                 </Link>
               </div>
             </div>

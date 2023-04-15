@@ -19,7 +19,7 @@ export default function AboutMe() {
             superación, sueños y metas.
             <br />
           </p>
-          <h3>¿Por que yo?🤔</h3>
+          <h3>¿Por qué yo?🤔</h3>
           <p>
             💎Todo lo que hago lo hago basado en mis metas, cuento con la
             habilidad de acomodarme a diferentes situaciones o problemas con el
