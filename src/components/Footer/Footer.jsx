@@ -12,7 +12,7 @@ export default function Footer() {
     <div className="footer">
       <div className="imagenes">
         <div className="icono">
-          <Link className="nav-link" to="https://wa.link/efq3u5">
+          <Link className="nav-link" to="https://wa.link/g3gsh3">
             <img className="img_logo_footer" src={Whatsapp} alt="Whatsapp" />
              Whatsapp
           </Link>
